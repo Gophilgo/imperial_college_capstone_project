@@ -17,8 +17,12 @@ This project tackles eight hidden "black-box" functions: mathematical systems wh
 
 ## Repository Structure
 
+- `data_sheet.md`
+  - Datasheet documenting the data, landscape, strategy and results across all eight functions.
+- `model_card.md`
+  - Model card describing the optimisation pipeline, performance, limitations and trade-offs.
 - `initial_data/`
-  - Baseline input/output arrays for each function.
+  - Baseline input/output arrays for each function (`function_i/initial_inputs.npy`, `initial_outputs.npy`).
 - `notebooks/`
   - Weekly analysis notebooks by function.
   - Folders are organized by week (e.g., `week_01`, `week_02`, ..., `week_13`).
